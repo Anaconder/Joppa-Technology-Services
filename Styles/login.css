@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #dd1e28;
+  color:#0854a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1{
+  text-align: center;
+}
+
+fieldset{
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 3rem 6rem;
+  border: none;
+  box-shadow: .3em .3em 1.2em .2em black;
+  border-radius: 1em;
+}
+
+.subhead{
+  padding-left: 0.5rem;
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.textIn {
+  background-color: #eff3f3 ;
+}
+
+input[type="submit"] {
+  background-color: #0854a1;
+  color: white;
+  text-align: center;
+
+}
+
+#bottombox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottombox label {
+  padding-left: .5em;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#bottombox input[type="checkbox"] {
+ margin-bottom: 0;
+}

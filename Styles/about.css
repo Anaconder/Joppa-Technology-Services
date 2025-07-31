@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: var(--lightBlue);
+  /* This is where you would include fonts */
+}
+
+/* Make sure all decendants inherit border-box */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
