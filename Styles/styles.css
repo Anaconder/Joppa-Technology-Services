@@ -22,7 +22,9 @@ nav>ul{
   justify-content: space-between;
   background-color: #ffffff;
   margin: 0;
+  padding: 1.1em 0em;
   position: sticky;
+  
 }
 
 li a {
@@ -30,4 +32,15 @@ li a {
   padding: 10px 30px;
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* hero Image styling */
+#heroiMG{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height:50%;
 }
