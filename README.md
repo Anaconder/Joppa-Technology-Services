@@ -12,6 +12,24 @@ Large carousel
 smaller carousel with discription
 search bar
 add a footer
+add hover
+expand the background Image and make it a carousel
 
-inventory table
+inventory 
+table
+
+
+
+What could you have done differently during the planning stages of your project to make the execution easier?
+Should have been less ambitious with my plan
+
+
+Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects?
+[Type Answer Here]
+
+What would you add to or change about your website if given more time?
+[Type Answer Here]
+
+
+Use this space to make notes for your future self about anything that you think is important to remember about this process, or that may aid you when attempting something similar again.
 

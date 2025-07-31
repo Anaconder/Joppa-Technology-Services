@@ -7,7 +7,27 @@
   <link rel="stylesheet" href="..\styles\Login.css">
 </head>
 <body>
-  <form>
+
+  <nav>
+    <ul>
+       <li><a href="../index.html"><img src="../images/home.png" alt="home icon"/>Home</a></li>
+       <li class="search-wrapper">
+          <form id="search-bar">
+            <input type="text" name="q" placeholder="Search">
+            <button type="submit"><img src="../images/search-icon.png"></button>
+          </form>
+       </li>
+
+       <li><a href="#"><img src="../images/Qoute.png" alt="document Icon"/>Quote</a></li>
+       <li><a href="./Inventory.html"><img src="../images/Inventory.png" alt="Inventory Icon"/>Inventory</a></li>
+       <li><a href="./Login.html"><img src="../images/usericon-small.png" alt="user icon"/>Log In</a></li>
+    </ul>
+  </nav>
+
+
+
+
+  <form id="lform">
     <fieldset>
       <div style="text-align: center;">
         <img src="..\images\user icon.png" alt="User Icon" />
@@ -28,7 +48,7 @@
         <a href="">Forgot Password</a>
       </div>
       <br />
-      <input type="submit" value="Login" id="Login" size ="50">
+      <input type="submit" value="Login" id="Login" >
 
     </fieldset>
   </form>

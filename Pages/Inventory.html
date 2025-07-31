@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <link rel="stylesheet" href="..\styles\inventory.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inventory Table</title>
+  <link rel="stylesheet" href="../Styles/inventory.css">
+   
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
 </head>
+
 <body>
-  
+
+  <!-- Navbar -->
+   <nav>
+    <ul>
+       <li><a href="../index.html"><img src="../images/home.png" alt="home icon"/>Home</a></li>
+       <li class="search-wrapper">
+          <form id="search-bar">
+            <input type="text" name="q" placeholder="Search">
+            <button type="submit"><img src="../images/search-icon.png"></button>
+          </form>
+       </li>
+
+       <li><a href="#"><img src="../images/Qoute.png" alt="document Icon"/>Quote</a></li>
+       <li><a href="./Inventory.html"><img src="../images/Inventory.png" alt="Inventory Icon"/>Inventory</a></li>
+       <li><a href="./Login.html"><img src="../images/usericon-small.png" alt="user icon"/>Log In</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Heading -->
+  <h2>Inventory Table</h2>
+
+  <!-- Dropdown Menu -->
+  <div class="d-flex justify-content-center mb-4">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Filter Items
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All</a></li>
+        <li><a class="dropdown-item" href="#">Networking</a></li>
+        <li><a class="dropdown-item" href="#">Power</a></li>
+        <li><a class="dropdown-item" href="#">Security</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Table Section -->
+  <div class="table-wrapper">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Item ID</th>
+          <th>Item Description</th>
+          <th>Price ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Lorem ipsum dolor sit amet</td>
+          <td>149.99</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Consectetur adipiscing elit</td>
+          <td>89.50</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Sed do eiusmod tempor</td>
+          <td>230.00</td>
+        </tr>
+        <tr>
+          <td>004</td>
+          <td>Incididunt ut labore et dolore</td>
+          <td>315.75</td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td>Magna aliqua</td>
+          <td>77.49</td>
+        </tr>
+        <tr>
+          <td>006</td>
+          <td>Ut enim ad minim veniam</td>
+          <td>199.99</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </body>
 </html>
