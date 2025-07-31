@@ -1,4 +1,4 @@
-This is an e-commerce website in the works.The inventory page will be used be the company to update their list of goods available.
+This is an e-commerce website in the works.The inventory page will be used by the company to update their list of goods available.
 
 login page
 format the forgot password
